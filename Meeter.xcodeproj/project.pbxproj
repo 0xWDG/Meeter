@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B202ECE2939314800F871CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B202ECD2939314800F871CC /* AppDelegate.swift */; };
+		2B202ED02939314800F871CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B202ECF2939314800F871CC /* ViewController.swift */; };
+		2B202ED22939314A00F871CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B202ED12939314A00F871CC /* Assets.xcassets */; };
+		2B202ED52939314A00F871CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B202ED32939314A00F871CC /* Main.storyboard */; };
+		2B202EE02939314A00F871CC /* MeeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B202EDF2939314A00F871CC /* MeeterTests.swift */; };
+		2B202EEA2939314A00F871CC /* MeeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B202EE92939314A00F871CC /* MeeterUITests.swift */; };
+		2B202EEC2939314A00F871CC /* MeeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B202EEB2939314A00F871CC /* MeeterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B202EDC2939314A00F871CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B202EC22939314800F871CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B202EC92939314800F871CC;
+			remoteInfo = Meeter;
+		};
+		2B202EE62939314A00F871CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B202EC22939314800F871CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B202EC92939314800F871CC;
+			remoteInfo = Meeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B202ECA2939314800F871CC /* Meeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B202ECD2939314800F871CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B202ECF2939314800F871CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B202ED12939314A00F871CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B202ED42939314A00F871CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B202ED62939314A00F871CC /* Meeter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meeter.entitlements; sourceTree = "<group>"; };
+		2B202EDB2939314A00F871CC /* MeeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B202EDF2939314A00F871CC /* MeeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeeterTests.swift; sourceTree = "<group>"; };
+		2B202EE52939314A00F871CC /* MeeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B202EE92939314A00F871CC /* MeeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeeterUITests.swift; sourceTree = "<group>"; };
+		2B202EEB2939314A00F871CC /* MeeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B202EC72939314800F871CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B202ED82939314A00F871CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B202EE22939314A00F871CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B202EC12939314800F871CC = {
+			isa = PBXGroup;
+			children = (
+				2B202ECC2939314800F871CC /* Meeter */,
+				2B202EDE2939314A00F871CC /* MeeterTests */,
+				2B202EE82939314A00F871CC /* MeeterUITests */,
+				2B202ECB2939314800F871CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B202ECB2939314800F871CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B202ECA2939314800F871CC /* Meeter.app */,
+				2B202EDB2939314A00F871CC /* MeeterTests.xctest */,
+				2B202EE52939314A00F871CC /* MeeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B202ECC2939314800F871CC /* Meeter */ = {
+			isa = PBXGroup;
+			children = (
+				2B202ECD2939314800F871CC /* AppDelegate.swift */,
+				2B202ECF2939314800F871CC /* ViewController.swift */,
+				2B202ED12939314A00F871CC /* Assets.xcassets */,
+				2B202ED32939314A00F871CC /* Main.storyboard */,
+				2B202ED62939314A00F871CC /* Meeter.entitlements */,
+			);
+			path = Meeter;
+			sourceTree = "<group>";
+		};
+		2B202EDE2939314A00F871CC /* MeeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B202EDF2939314A00F871CC /* MeeterTests.swift */,
+			);
+			path = MeeterTests;
+			sourceTree = "<group>";
+		};
+		2B202EE82939314A00F871CC /* MeeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B202EE92939314A00F871CC /* MeeterUITests.swift */,
+				2B202EEB2939314A00F871CC /* MeeterUITestsLaunchTests.swift */,
+			);
+			path = MeeterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B202EC92939314800F871CC /* Meeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B202EEF2939314A00F871CC /* Build configuration list for PBXNativeTarget "Meeter" */;
+			buildPhases = (
+				2B202EC62939314800F871CC /* Sources */,
+				2B202EC72939314800F871CC /* Frameworks */,
+				2B202EC82939314800F871CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meeter;
+			productName = Meeter;
+			productReference = 2B202ECA2939314800F871CC /* Meeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B202EDA2939314A00F871CC /* MeeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B202EF22939314A00F871CC /* Build configuration list for PBXNativeTarget "MeeterTests" */;
+			buildPhases = (
+				2B202ED72939314A00F871CC /* Sources */,
+				2B202ED82939314A00F871CC /* Frameworks */,
+				2B202ED92939314A00F871CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B202EDD2939314A00F871CC /* PBXTargetDependency */,
+			);
+			name = MeeterTests;
+			productName = MeeterTests;
+			productReference = 2B202EDB2939314A00F871CC /* MeeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B202EE42939314A00F871CC /* MeeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B202EF52939314A00F871CC /* Build configuration list for PBXNativeTarget "MeeterUITests" */;
+			buildPhases = (
+				2B202EE12939314A00F871CC /* Sources */,
+				2B202EE22939314A00F871CC /* Frameworks */,
+				2B202EE32939314A00F871CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B202EE72939314A00F871CC /* PBXTargetDependency */,
+			);
+			name = MeeterUITests;
+			productName = MeeterUITests;
+			productReference = 2B202EE52939314A00F871CC /* MeeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B202EC22939314800F871CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2B202EC92939314800F871CC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2B202EDA2939314A00F871CC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2B202EC92939314800F871CC;
+					};
+					2B202EE42939314A00F871CC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2B202EC92939314800F871CC;
+					};
+				};
+			};
+			buildConfigurationList = 2B202EC52939314800F871CC /* Build configuration list for PBXProject "Meeter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B202EC12939314800F871CC;
+			productRefGroup = 2B202ECB2939314800F871CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B202EC92939314800F871CC /* Meeter */,
+				2B202EDA2939314A00F871CC /* MeeterTests */,
+				2B202EE42939314A00F871CC /* MeeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B202EC82939314800F871CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B202ED22939314A00F871CC /* Assets.xcassets in Resources */,
+				2B202ED52939314A00F871CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B202ED92939314A00F871CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B202EE32939314A00F871CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B202EC62939314800F871CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B202ED02939314800F871CC /* ViewController.swift in Sources */,
+				2B202ECE2939314800F871CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B202ED72939314A00F871CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B202EE02939314A00F871CC /* MeeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B202EE12939314A00F871CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B202EEC2939314A00F871CC /* MeeterUITestsLaunchTests.swift in Sources */,
+				2B202EEA2939314A00F871CC /* MeeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B202EDD2939314A00F871CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B202EC92939314800F871CC /* Meeter */;
+			targetProxy = 2B202EDC2939314A00F871CC /* PBXContainerItemProxy */;
+		};
+		2B202EE72939314A00F871CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B202EC92939314800F871CC /* Meeter */;
+			targetProxy = 2B202EE62939314A00F871CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B202ED32939314A00F871CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B202ED42939314A00F871CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B202EED2939314A00F871CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B202EEE2939314A00F871CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B202EF02939314A00F871CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Meeter/Meeter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V2D72S45C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wesleydegroot.Meeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B202EF12939314A00F871CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Meeter/Meeter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V2D72S45C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wesleydegroot.Meeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2B202EF32939314A00F871CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V2D72S45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wesleydegroot.MeeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meeter";
+			};
+			name = Debug;
+		};
+		2B202EF42939314A00F871CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V2D72S45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wesleydegroot.MeeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meeter";
+			};
+			name = Release;
+		};
+		2B202EF62939314A00F871CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V2D72S45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wesleydegroot.MeeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Meeter;
+			};
+			name = Debug;
+		};
+		2B202EF72939314A00F871CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V2D72S45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wesleydegroot.MeeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Meeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B202EC52939314800F871CC /* Build configuration list for PBXProject "Meeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B202EED2939314A00F871CC /* Debug */,
+				2B202EEE2939314A00F871CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B202EEF2939314A00F871CC /* Build configuration list for PBXNativeTarget "Meeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B202EF02939314A00F871CC /* Debug */,
+				2B202EF12939314A00F871CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B202EF22939314A00F871CC /* Build configuration list for PBXNativeTarget "MeeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B202EF32939314A00F871CC /* Debug */,
+				2B202EF42939314A00F871CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B202EF52939314A00F871CC /* Build configuration list for PBXNativeTarget "MeeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B202EF62939314A00F871CC /* Debug */,
+				2B202EF72939314A00F871CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B202EC22939314800F871CC /* Project object */;
+}
