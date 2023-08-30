@@ -54,9 +54,12 @@ class ViewController: NSViewController {
             self.setStatus("Fetching URL's...")
             self.wv.evaluateJavaScript("""
             var urls = [];
-            document.querySelectorAll("a[class=eventCard--link]").forEach(
+            document.querySelectorAll("a").forEach(
                 function (event) {
-                    if(event.firstChild.innerText == "\(self.eventNameToAttend)") {
+                    if (
+                        typeof event.firstChild.innerText !== 'undefined' &&
+                        event.firstChild.innerText.includes("\(self.eventNameToAttend)")
+                    ) {
                         urls.push(event.href);
                     }
                 }
