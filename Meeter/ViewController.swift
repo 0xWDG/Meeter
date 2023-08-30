@@ -16,7 +16,7 @@ import WebKit
 class ViewController: NSViewController {
     var meetupEventURL = "https://www.meetup.com/appsterdam/events/"
     var eventNameToAttend = "Weekly Meeten en Drinken"
-    var timeout: Double = 15
+    var timeout: Double = 25
 
     // DO NOT CHANGE ANYTHING BELOW
     @IBOutlet weak var wv: WKWebView!
@@ -58,7 +58,8 @@ class ViewController: NSViewController {
                 function (event) {
                     if (
                         typeof event.firstChild.innerText !== 'undefined' &&
-                        event.firstChild.innerText.includes("\(self.eventNameToAttend)")
+                        event.firstChild.innerText.includes("\(self.eventNameToAttend)") &&
+                        event.lastChild.innerText.includes("Attend")
                     ) {
                         urls.push(event.href);
                     }
@@ -106,6 +107,7 @@ class ViewController: NSViewController {
                         function (attendButton) {
                             if (attendButton.innerText == "Attend") {
                                 attendButton.click();
+                                window.setTimeout(function () {
                                 document.querySelectorAll("button").forEach(
                                     function (confirmButton) {
                                         if (confirmButton.innerText.includes("Submit")) {
@@ -113,6 +115,7 @@ class ViewController: NSViewController {
                                         }
                                     }
                                 );
+                                }, 1000);
                             }
                         }
                     );
