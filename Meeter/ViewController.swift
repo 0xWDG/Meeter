@@ -103,12 +103,12 @@ class ViewController: NSViewController {
             self.setStatus("Attending meetup \(self.eventProgressCounter)/\(self.meetupURLs.count), url: \(url)")
             self.wv.evaluateJavaScript("""
                     document.querySelectorAll("button").forEach(
-                        function (attendButton){
+                        function (attendButton) {
                             if (attendButton.innerText == "Attend") {
                                 attendButton.click();
                                 document.querySelectorAll("button").forEach(
-                                    function (confirmButton){
-                                        if (confirmButton.innerText == "Submit") {
+                                    function (confirmButton) {
+                                        if (confirmButton.innerText.includes("Submit")) {
                                             confirmButton.click();
                                         }
                                     }
