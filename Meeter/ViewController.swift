@@ -16,7 +16,7 @@ import WebKit
 class ViewController: NSViewController {
     var meetupEventURL = "https://www.meetup.com/appsterdam/events/"
     var eventNameToAttend = "Weekly Meeten en Drinken"
-    var timeout: Double = 25
+    var timeout: Double = 15
 
     // DO NOT CHANGE ANYTHING BELOW
     @IBOutlet weak var wv: WKWebView!
@@ -100,7 +100,7 @@ class ViewController: NSViewController {
         setStatus("Loading meetup \(self.eventProgressCounter)/\(self.meetupURLs.count), url: \(url)")
         wv.load(.init(url: .init(string: url)!))
 
-        perform(after: timeout / 2, times: 1) {
+        perform(after: timeout + 5, times: 1) {
             self.setStatus("Attending meetup \(self.eventProgressCounter)/\(self.meetupURLs.count), url: \(url)")
             self.wv.evaluateJavaScript("""
                     document.querySelectorAll("button").forEach(
